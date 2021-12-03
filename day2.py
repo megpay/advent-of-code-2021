@@ -1,5 +1,3 @@
-import numpy as np
-
 def calc_x_y(x, y, newline):
     direction, value = newline.split(" ")
     if direction == 'forward':
