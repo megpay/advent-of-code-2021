@@ -18,4 +18,4 @@ lst = []
 for i in range(m0, m1):
     lst.append(compute_fuel(i, inputarr))
 
-min(lst)
+print("Minimum fuel: {0}".format(min(lst)))
